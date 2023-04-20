@@ -24,6 +24,7 @@ import {
   SiWebpack,
   // SiAgile,
 } from "react-icons/si";
+import ImageGallery from "@/components/ImageGallery";
 
 const Home: React.FC = () => {
   return (
@@ -33,12 +34,15 @@ const Home: React.FC = () => {
           id="introduction"
           className="my-10 h-screen p-2 dark:bg-green-800"
         >
-          <h1 className="text-4xl font-bold mb-5">Hello, I'm Himanshu Kamal</h1>
+          <h1 className="text-4xl font-bold mb-5">
+            Hello, I am Himanshu Kamal
+          </h1>
           <p className="text-xl">
-            I'm a Frontend Developer based in India. I specialize in building
+            I am a Frontend Developer based in India. I specialize in building
             high-quality, user-friendly websites , Dashboards and web
             applications.
           </p>
+          <ImageGallery />
         </section>
 
         <section

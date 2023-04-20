@@ -263,13 +263,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <IoIosMoon
                 size={18}
                 className={`${
-                  darkMode ? "opacity-40" : "text-yellow-500 opacity-80"
+                  darkMode ? "opacity-40" : "text-yellow-300 "
                 } fill-current`}
               />
               <IoIosSunny
                 size={18}
                 className={`${
-                  darkMode ? "opacity-40 " : " text-yellow-500"
+                  darkMode ? "opacity-40 " : " text-yellow-300"
                 } fill-current`}
               />
             </span>
